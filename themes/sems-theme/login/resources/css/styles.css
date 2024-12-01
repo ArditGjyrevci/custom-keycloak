@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#kc-login {
+  width: 144px;
+  height: 54px;
+  background-color: #920709;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  margin-top: -3.8%;
+  margin-bottom: 60px;
+  font-size: 14px;
+  font-family:'Poppins';
+}
+#kc-login:hover {
+  color: #920709;
+  background-color: transparent;
+  background-image: none;
+  border:1px solid #920709;
+}
+#kc-form-buttons{
+  justify-content: center;
+}
+
+.pf-v5-c-login__container{
+  
+  margin-top: 6%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pf-v5-c-login{
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  height: auto;
+  box-sizing: border-box; 
+  padding: 0;
+}
+.pf-v5-c-login__main-header{
+  background-image: url('../img/keycloak-logo-text.png');
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 230px;
+  margin: 25px;
+  justify-self: center;
+}
+#kc-page-title {
+display:none;}
+
+.pf-v5-c-login__main{
+  width: 430px;
+  height:auto;
+  border-top: 0;
+  margin-right: 60px;
+  
+}
+
+#kc-header-wrapper{
+  display: none;
+}
+
+.pf-v5-c-form__group{
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-v5-c-form__actions{
+  justify-content: center;
+  align-items: center;
+}
+
+.pf-v5-c-login__main{
+  box-shadow: 0px 1px 15px 1px rgba(113, 106, 202, 0.2);
+}
+
+.pf-v5-c-login__main-body{
+  justify-content: center;
+  align-items: center;
+  margin-left: -9.8%;
+}
+
+#kc-form-login{
+  width: 95%;
+}
+.pf-v5-c-helper-text__item{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+input {
+  outline: none;
+}
+#kc-form {
+width: 420px; 
+font-family: sans-serif, Arial;
+}
+
+.pf-v5-c-form__label,.pf-v5-c-button{
+  display: none;
+}
+
+.pf-v5-c-form-control input[type="text"],
+.pf-v5-c-form-control input[type="password"] {
+  width: 100%;
+  height: 55px;
+  border: none;
+  border-radius: 20px; 
+  background-color: #f7f6f9; 
+  color: #575962 !important;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  outline: none; 
+  box-sizing: border-box;
+  padding:15px;
+}
+
+.pf-v5-c-form-control input[type="text"]::placeholder,
+.pf-v5-c-form-control input[type="password"]::placeholder {
+  color: #91899f;
+  font-size: 14px;
+  font-family: 'Poppins';
+}
+input {
+  outline: none !important; 
+  padding:15px;
+}
+input:focus {
+  outline: none !important;
+}
+.pf-v5-c-form-control::before{
+  border: none;
+}
+.pf-v5-c-form-control::after {
+  border:none;
+}
+
+.pf-v5-c-helper-text__item-text a {
+  font-size: 12px;
+  font-family:'Poppins';
+  font-weight: 400;
+  color: #aba5b6;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.pf-v5-c-helper-text__item-text a::before {
+  content: url('../img/lock-icon.svg');
+  margin-right: 2px;
+  font-size: 14px;
+}
+
+.pf-v5-c-helper-text__item-text a:hover {
+  text-decoration: underline;
+  color: #575962;
+  transition: all 0.3s ease-in-out;
+}
+
+.pf-v5-c-form-control input[type="text"]:focus,
+.pf-v5-c-form-control input[type="password"]:focus {
+  background-color: #f5f5f7;
+  color: #b7b7b7;
+  outline: none; 
+}
+
+#kc-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#kc-reset-password-form{
+  margin-left:2%;
+  width: 400px;
+  display: block;
+  justify-content: center;
+}
+
+#kc-info{
+  width: 400px;
+  margin-left:2%;
+}
+
+.pf-v5-c-alert {
+  
+  width: 380px;
+  margin-left:5%
+}
+
+#kc-error-message{
+  margin-left:5%;
+}
+
+#kc-totp-settings-form, 
+#kc-passwd-update-form,
+#kc-update-profile-form, 
+.pf-v5-c-alert{
+margin-left:5%;
+width:380px;
+}
+
+
+#kc-totp-settings li{
+  margin-left:5%;
+}
+
+p.instruction{
+  margin-left:20px;
+}
+
+#keycloak-bg > div > div > main > div.pf-v5-c-login__main-body > div.pf-v5-c-form.pf-v5-u-mb-md-on-md{
+  width: 400px;
+  margin:10px;
+}
+#kc-otp-login-form > div:nth-child(2){
+  
+  margin-bottom:30px;
+}
+
+#keycloak-bg > div > div > main > div.pf-v5-c-login__main-body > div.pf-v5-c-form.pf-v5-u-mb-md-on-md > div > div.pf-v5-c-input-group > div.pf-v5-c-input-group__item.pf-m-fill > span{
+  border-radius: 10px;
+  background-color: #f7f6f9;
+}
