@@ -244,7 +244,13 @@ p.instruction{
 #kc-social-providers{
   margin-top:8px;
 }
-
+#kc-idp-review-profile-form{
+  margin-left: 40px;
+}
+.pf-v5-c-button.pf-m-block{
+  margin-left:20px;
+}
+  
 @media (max-width: 390px) {
   .pf-v5-c-login__main-body{
     justify-content: center;
